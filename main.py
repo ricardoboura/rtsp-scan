@@ -42,7 +42,6 @@ while j <= 255:
         while i < 255:
             ip = f'{faixa}.{j}.{x}.{i}'
             multi_process(ip)
-            # print(ip)
             i += 1
         x += 1
     j += 1
